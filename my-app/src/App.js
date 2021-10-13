@@ -2,7 +2,6 @@ import React, { useEffect, useState, Suspense } from 'react'
 import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react'
 
 import initAmplify from './config/initAmplify'
-import { appMachine } from './stateMachine/index'
 import { Dropdown, Avatar, Menu, Row, Col } from 'antd'
 
 const Layout = React.lazy(() => import("./components/Layout"))
